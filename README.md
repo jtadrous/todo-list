@@ -3,7 +3,7 @@
 Julie Tadrous
 
 Live Link: [Todo List App](http://localhost:8000)
-update this link before submit ^^^
+<<< update this link before submit
 
 First add your branch to Github...
 git push --set-upstream origin name-of-branch-here
