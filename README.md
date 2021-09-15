@@ -47,3 +47,7 @@ Live Link: [Todo List App](http://localhost:8000)
 
 If you were on the wrong branch...
 `git push origin name-of-branch-you-actually-wanted-here`
+
+## Copying code from another branch...
+
+`git merge name-of-other-branch-here`
