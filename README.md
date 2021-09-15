@@ -44,3 +44,6 @@ Live Link: [Todo List App](http://localhost:8000)
 ## To check which branch you are in...
 
 `git branch`
+
+If you were on the wrong branch...
+`git push origin name-of-branch-you-actually-wanted-here`
