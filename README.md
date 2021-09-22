@@ -15,7 +15,7 @@ Live Link: [Todo List App](http://localhost:8000)
    `git add .`
 
 2. Commit changes with a messsage
-   `git commit -m 'your message here'`
+   `git commit -m "your message here"`
 
 3. Push changes to Github
    `git push`
