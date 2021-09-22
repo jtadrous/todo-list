@@ -4,8 +4,12 @@ import React from "react";
 import { Button, Grid, List, Label } from "semantic-ui-react";
 
 //when you send over props, they need to be in an object {}
-const Task = ({ name, color }) => {
-  console.log(name, color);
+const Task = ({ name, color, editTask, index }) => {
+  //console.log(name, color);
+
+  function editCurrentTask() {
+    editTask(index);
+  }
 
   return (
     <React.Fragment>
@@ -18,7 +22,11 @@ const Task = ({ name, color }) => {
           </Grid.Column>
           <Grid.Column textAlign="right">
             <Button icon="trash" color="black"></Button>
-            <Button icon="pencil" color="blue"></Button>
+            <Button
+              onClick={editCurrentTask}
+              icon="pencil"
+              color="blue"
+            ></Button>
           </Grid.Column>
         </Grid>
       </List.Item>
