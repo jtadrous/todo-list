@@ -32,7 +32,7 @@ const HomePage = () => {
   }
 
   function addNewTask() {
-    //cloning the old list
+    //cloning the old list state
     const listClone = [...list];
     //pushing the new task to the clone list
     listClone.push(newTask);
@@ -55,7 +55,6 @@ const HomePage = () => {
     );
   }); */
 
-  //this isn't working!!!
   function editTask(index) {
     console.log("edit", index);
     const newList = list.map((task, i) => {
@@ -76,7 +75,7 @@ const HomePage = () => {
     //https://www.w3schools.com/jsref/jsref_filter.asp
   }
 
-  //another way to do it rather than lines above ^^^, creates an empty array called tastList loops through the list
+  //another way to do it rather than lines above ^^^, creates an empty array called taskList loops through the list
   const taskList = list.map((task, index) => {
     return (
       <Task
