@@ -3,7 +3,7 @@
 Julie Tadrous
 
 Live Link: [Todo List App](http://localhost:8000)
-<<< update this link before submit
+<<< update this link to Web4 before submit
 
 ## First add your branch to Github...
 
@@ -15,7 +15,7 @@ Live Link: [Todo List App](http://localhost:8000)
    `git add .`
 
 2. Commit changes with a messsage
-   `git commit -m 'your message here'`
+   `git commit -m "your message here"`
 
 3. Push changes to Github
    `git push`
@@ -47,3 +47,7 @@ Live Link: [Todo List App](http://localhost:8000)
 
 If you were on the wrong branch...
 `git push origin name-of-branch-you-actually-wanted-here`
+
+## Copying code from another branch...
+
+`git merge name-of-other-branch-here`
