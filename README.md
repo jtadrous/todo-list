@@ -2,8 +2,9 @@
 
 Julie Tadrous
 
-Live Link: [Todo List App](https://in-info-web4.informatics.iupui.edu/~jtadrous/N322/todo-list/)
-<<< update this link to Web4 before submit
+Live Link: https://in-info-web4.informatics.iupui.edu/~jtadrous/N322/todo-list/
+
+*link currently down
 
 ## First add your branch to Github...
 
